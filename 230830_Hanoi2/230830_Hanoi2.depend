@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1693449492 source:c:\users\pichau\documents\fatec\programação avançada\230830_hanoi2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
