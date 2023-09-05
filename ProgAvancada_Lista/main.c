@@ -10,12 +10,6 @@ typedef struct no{
 	struct no *proximo;
 } No;
 
-typedef struct {
-	int tamanho;
-	No *inicio;
-	No *fim;
-} Fila;
-
 void enfileirar(No **fila, int valor){
 	No *aux, *novo = malloc(sizeof(No));
 	if(novo){
