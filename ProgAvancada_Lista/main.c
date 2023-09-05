@@ -32,6 +32,20 @@ void enfileirar(No **fila, int valor){
 	}
 }
 
+No* remover_da_fila(No **fila){
+	No* remover = NULL;
+
+	if(*fila){
+		remover = *fila;
+		*fila = remover->proximo;
+	}
+	else{
+		printf("Fila vazia");
+
+	}
+	return remover
+}
+
 /*void enfileirar(Fila *fila, int valor){
 	No* no = malloc(sizeof(No));
 	no->valor = valor;
