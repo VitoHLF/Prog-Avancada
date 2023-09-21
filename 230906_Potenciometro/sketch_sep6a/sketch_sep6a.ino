@@ -10,6 +10,7 @@ Portas analógicas:
 #define led2 4
 #define led3 5
 #define led4 6
+
 void setup() {
   //Serial.begin(57600);
   pinMode(led1, OUTPUT);
@@ -27,7 +28,7 @@ void loop() {
   digitalWrite(led4, LOW);
 
   if(val<256){
-    digitalWrite(led1, HIGH);    
+    digitalWrite(led1, HIGH);
   }
   if(val>=256 && val<512){
     digitalWrite(led2, HIGH);

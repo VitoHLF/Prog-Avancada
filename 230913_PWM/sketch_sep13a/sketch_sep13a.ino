@@ -8,7 +8,7 @@ Modulando o tempo que o pino fica ligado em relação ao tempo desligado,
   No caso do arduino uno são 6 pinos marcados com o símbolo ~.
 
   analogWrite(pinoPWM, Nível de Saída);
-  Níver: 0 - 255
+  Nível: 0 - 255
 
 Led RGB
   São 3 leds encapsulados juntos, um vermelho, um verde e um azul.
